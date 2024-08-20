@@ -35,18 +35,34 @@ h2 {
 
 .buttons{
     text-align: center;
-
 }
 
 button {
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
-    opacity: 1;
-    
+    width: 200px;
+    margin-bottom:5px;
 }
 
+#increment-btn {
+    background-color: rgb(171, 0, 0);
+    color: aliceblue;
+    border: rgb(111, 0, 22);
+}
 
+#increment-btn:hover{
+    background-color: darkred ;
+    transition-delay: 0.1s;
+}
+#save-btn {
+    background-color: green;
+    color: aliceblue;
+    border: rgb(4, 47, 10);
+}
+
+#save-btn:hover{
+    background-color: darkgreen ;
+    transition-delay: 0.1s;
+}
