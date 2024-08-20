@@ -21,16 +21,21 @@ body{
 h1 {
     padding: 60px;
     padding-bottom: 0; 
+    font-size:30px;
     text-align: center;
     color: black;
 }
 
-h2 {
-    font-size: 50px;
+h2,p {
+    font-size: 35px;
     margin-top: 0;
     margin-bottom: 20px;
     text-align: center;
     color: black;
+}
+p{
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 .buttons{
